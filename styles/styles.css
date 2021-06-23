@@ -1,17 +1,20 @@
 
 body {        
     font-family: 'Titillium Web', sans-serif;
-    background-color: #FFFCFA;
+    background: radial-gradient(ellipse at center, #24CEAC 0%, #0BA492 68%, #644CC5 100%);
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
 
 main {
     padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 header {
-    background-color: #A2D7D2;
     height: 110px;
     padding: 0 30px;
     display: flex;
@@ -30,6 +33,18 @@ h1 {
 }
 
 footer {
-    background-color: #FAF0EA;
-    padding: 10px;
+   padding: 10px;
+   color:azure;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    height: 400px;
+
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
 }
