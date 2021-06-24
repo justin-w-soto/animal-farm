@@ -48,3 +48,14 @@ h1 {
     color: azure;
 }
 
+.animal {
+    text-align: center;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+}
+
+figcaption:hover {
+    color: yellow;
+}
+
